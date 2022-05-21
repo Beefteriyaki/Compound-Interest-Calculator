@@ -2,6 +2,15 @@ body{
     background-color: black;
 }
 
-h1{
-    color: coral;
+.Calculator{
+margin-left: 20rem;
+margin-top: 5rem;
 }
+
+h1{
+    margin-left: 25rem;
+    color: coral;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
