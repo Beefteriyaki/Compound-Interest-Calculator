@@ -2,10 +2,6 @@ body{
     background-color: black;
 }
 
-.Calculator{
-margin-left: 20rem;
-margin-top: 5rem;
-}
 
 h1{
     margin-left: 25rem;
@@ -14,8 +10,25 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.Calculator{
+margin-left: 15rem;
+margin-top: 5rem;
+}
+
+.Result{
+    margin-top: 5rem;
+    margin-left: 25rem;
+}
+
 .Amount{
     background-color: antiquewhite;
     color: black;
 }
 
+.CI{
+    background-color:blanchedalmond;
+}
+
+.Misc{
+    color: azure;
+}
