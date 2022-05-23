@@ -10,16 +10,26 @@
 </head>
 <body>
     <h1>Compound Interest Calculator</h1>
-    <div class="Calculator"><input type="number" class="Sum" placeholder="Enter the sum ">
+    <div class="Calculator">
+        <input type="number" class="Sum" placeholder="Enter the sum ">
         <input type="number" class="Interest Rate" placeholder="Enter the interest rate">
         <input type="number" class="Time period" placeholder="Time (in years)">
+        <input type="number" class="Compounded" placeholder="n">
         <button class="Button"> Calculate </button>
     </div>
 
     <div class="Result">
-        <input type="number" class="Amount" >Total Amount</input>
+        <input type="number" class="Amount" placeholder="Total Amount">Total Amount</input>
+        <input type="number" class="CI" placeholder="Interest">
     </div>
     
+    <div class="Misc">
+        <p>
+           n= 1, when compounded annually.<br>
+           n= 2, when compounded half yearly.<br>
+           n= 4, when compounded quarterly.
+        </p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
