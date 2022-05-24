@@ -10,9 +10,7 @@ button.addEventListener("click", function(){
     let amount = p*((1+(r/n)))**(n*t)
     let interest = amount - p;
 
-    // amount = Number(document.querySelector(".Amount").value);
-    // interest = Number(document.querySelector(".CI").value);
-    
-    console.log(amount);
-    console.log(interest);
+    document.querySelector(".Amount").value = amount;
+    document.querySelector(".CI").value = interest;
+ 
 })
